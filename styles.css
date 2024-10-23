@@ -740,6 +740,7 @@ nav{
 
     body{
      overflow-x: hidden;
+    
     }
 }
 
@@ -1024,5 +1025,15 @@ nav{
     .client-image {
         width: 100px;
         height: 100px;
+    }
+}
+
+@media (max-width: 412px){
+    body{
+        overflow-x: hidden;
+    }
+
+    html{
+        overflow-x: hidden;
     }
 }
