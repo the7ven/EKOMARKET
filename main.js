@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     reset: true,
     distance: '60px',
     duration: 1500,
-    delay: 200
+    delay: 100
 });
 
 // Animations pour le header
@@ -142,6 +142,6 @@ ScrollReveal().reveal('.main-footer', {
     origin: 'bottom'
 });
 ScrollReveal().reveal('.services', {
-    delay: 400,
+    delay: 100,
     origin: 'bottom'
 });
